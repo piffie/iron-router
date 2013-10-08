@@ -27,6 +27,7 @@ Package.on_use(function (api) {
   ], ['client', 'server']);
 
   api.add_files([
+    'lib/client/history.native.js',
     'lib/client/location.js',
     'lib/client/yield_partials_dict.js',
     'lib/client/client_router.js',
